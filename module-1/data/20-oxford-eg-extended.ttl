@@ -48,7 +48,7 @@ PREFIX schema: <https://schema.org/>
         schema:roleName <https://linked.data.gov.au/def/geocode-types/property-centroid> ;
         schema:value [
             a geo:Geometry ;
-            #geo:asWKT "POINT(153.0846 -27.3270)"^^geo:wktLiteral ;
+            geo:asWKT "POINT(153.0846 -27.3270)"^^geo:wktLiteral ;
         ] ;
     ] ;
     cn:isNameFor ex-parcel:161162441 ;
