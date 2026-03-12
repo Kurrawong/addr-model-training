@@ -55,5 +55,6 @@ PREFIX schema: <https://schema.org/>
     ls:hasLifecycleStage [
         a ls:LifecycleStage ;
         schema:additionalType ex:Unofficial ;
+        schema:startTime "1932"^^xsd:date ;
     ] ;
 .
