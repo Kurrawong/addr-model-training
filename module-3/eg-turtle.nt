@@ -1,0 +1,7 @@
+<http://example.com/oxford> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://linked.data.gov.au/def/addr/Address> .
+<http://example.com/oxford> <https://schema.org/hasPart> _:n1 .
+_:n1 <https://schema.org/additionalType> <http://linked.data.gov.au/def/address-part-types/road> .
+_:n1 <https://schema.org/value> <https://linked.data.gov.au/dataset/qldaddr/streetLocality/QLD140492> .
+<http://example.com/oxford> <https://schema.org/hasPart> _:n2 .
+_:n2 <https://schema.org/additionalType> <http://linked.data.gov.au/def/address-part-types/numberFirst> .
+_:n2 <https://schema.org/value> "20"^^<http://www.w3.org/2001/XMLSchema#integer> .

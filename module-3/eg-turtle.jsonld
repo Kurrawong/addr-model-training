@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "addr":"https://linked.data.gov.au/def/addr/",
+    "apt":"http://linked.data.gov.au/def/address-part-types/",
+    "schema":"https://schema.org",
+    "xsd":"http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://example.com/oxford",
+      "@type": "addr:Address",
+      "schema:hasPart": [
+        {
+          "@id": "_:n9dc58ab02ef64ebd948260995082ef94b1"
+        },
+        {
+          "@id": "_:n9dc58ab02ef64ebd948260995082ef94b2"
+        }
+      ]
+    },
+    {
+      "@id": "_:n9dc58ab02ef64ebd948260995082ef94b1",
+      "schema:additionalType": {
+        "@id": "apt:road"
+      },
+      "schema:value": {
+        "@id": "https://linked.data.gov.au/dataset/qldaddr/streetLocality/QLD140492"
+      }
+    },
+    {
+      "@id": "_:n9dc58ab02ef64ebd948260995082ef94b2",
+      "schema:additionalType": {
+        "@id": "apt:numberFirst"
+      },
+      "schema:value": {
+        "@type": "xsd:integer",
+        "@value": 20
+      }
+    }
+  ]
+}
