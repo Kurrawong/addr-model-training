@@ -22,7 +22,7 @@ The training in this repositories' course is presented in 4 modules which aim to
 1. **Module 1**: Introduction, Overview & Concepts
 2. **Module 2**: Implementations
 3. **Module 3**: Use & Maintenance
-4. **Module 4**: Practice
+4. **Module 4**: Modelling Scenarios
 
 The Jupyter Notebook files for each, `module-1.ipybn` etc. outline their content.
 
